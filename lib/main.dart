@@ -326,7 +326,7 @@ class OtherProjects extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Title: ${project.title}',
+                          '${project.title}',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         Text('Description: ${project.description}'),
